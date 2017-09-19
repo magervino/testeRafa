@@ -1,0 +1,59 @@
+Automation Folders NET
+----------------------
+
+Automation root folder
+----------------------
+
+X:\Automation 
+
+X:\Automation\V1000
+
+
+Automation root calendar (initial path)
+---------------------------------------
+X:\Automation\V1000\STORAGE
+
+Automation libraries
+--------------------
+X:\Automation\V1000\STORAGE\Libraries\App
+X:\Automation\General Activities\Infra
+
+
+Automation work dir after first execution
+-----------------------------------------
+<user> belongs to user you do log in into VDI. For your case it will be saloni
+X:\Automation\V1000\DATA_FILES_PER_CALENDAR\DEVELOPMENT\ENV1\<user>\INTEGRATED_ENV_SANITYFLOW
+
+
+Script (XML files and soapUI project)
+-------------------------------------
+X:\Temp			(Work Dir)
+X:\Temp\logs		(Logs Dir after soapUI send/receive xml request/response)
+X:\Temp\l\TestCaseXML	(soapUI project)
+X:\Temp\Tests		(XML files working dir)
+
+
+Utils
+-----
+
+Folder where SQLDeveloper executable is located (English version)
+-----------------------------------------------------------------
+X:\test\DBconnection
+RunDB.bat (Executable)
+
+	Once SQL Developer is opened, DB connections need to be loaded:
+	File: DBconnectionsALL.xml
+	Pwd: 1234
+
+SQL utils:
+----------
+SMP-A.sql
+GED.sql
+
+
+Folder where soapUI executable is located
+-----------------------------------------
+X:\test\DBconnection
+soapui.bat ---> Open soapUI application
+testrunner ---> Used to send requests from script
+

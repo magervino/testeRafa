@@ -1,0 +1,50 @@
+----------------------------------------------------------------------------------------------------------------------
+		Validator's help v1.0
+Validator should be able to help to check data for E2E online execution. Following 
+details on how to use the functions.
+
+1 - Select the environment Panel:
+	Panel responsible to define on which environment the Validator will check the data.
+1.1 - Env combo box:
+	Combo box responsible to define which environment the Validator will work. Select 
+	the desired environment before performing any activity, environment A will 
+	be selected by default.
+	
+2 - Check your customer data Panel:
+	Panel contain four functions related with customer data as below.
+2.1 - CPF/CNPJ option:
+	Option responsible to search in CRM database if a CPF or CNPJ was created or not.
+2.2 - Address Id option:
+	Option responsible to search in CRM and SMP database if a address id was created or not.
+2.3 - Serial Number option:
+	Option responsible to search in SMP database if a serial number was created or not.
+2.4 - CBP White List:
+	Option responsible to search if a CBP is inside the FVT whitelist and provide 
+	customer and their service details.
+	
+3 - Search your equipment Panel
+	Panel responsible to search in Novo Atlas the available serial number 
+	per tech id and type desired.
+
+----------------------------------------------------------------------------------------------------------------------
+Updates to v1.1:
+	- Address Id option will now list address details when created on CRM and SMP
+	- Improvements on result messages
+	- Correction STB query on SMP
+
+----------------------------------------------------------------------------------------------------------------------
+Updates to v1.2:
+	- Correção no texto de display do EMTA Wifi
+	- Improvements on CPF/CNPJ check and message
+
+----------------------------------------------------------------------------------------------------------------------
+Updates to v1.3:
+	- Inclusão do limite de quantidade de equipamentos
+	- Exclusão da função de validação unitária do serial number
+	- Atualização da resposta da busca de equipamentos não apresentando os existentes no SMP
+	
+----------------------------------------------------------------------------------------------------------------------
+Updates to v1.4:
+	- Inclusão do ambiente C
+	- Correção problema cpf/cnpj quando não encontrado
+	- Alterado para FVT 3.9
